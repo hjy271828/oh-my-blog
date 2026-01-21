@@ -1,0 +1,20 @@
+---
+---
+
+import Linkroll from "$components/Linkroll.astro";
+
+export const links = [
+	{
+		title: "SJTU",
+		url: "https://en.sjtu.edu.cn/",
+		image: "/SJTU_Logo.jpg",
+		description: "My school",
+		type: "community"
+	}
+];
+
+This is my school SJTU.
+
+<Linkroll locale={props.locale} links={links} />
+
+It's nice.
