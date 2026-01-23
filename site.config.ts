@@ -8,7 +8,7 @@ const config = siteConfig({
 		email: "hjy271828@gmail.com",
 		link: "https://hjy271828.github.io"
 	},
-	description: "A learner.",
+	description: "This is Jiayu Hu's personal blog. Welcome to share my thoughts and ideas with the world.",
 	copyright: {
 		type: "CC BY-NC-ND 4.0",
 		year: "2025"
