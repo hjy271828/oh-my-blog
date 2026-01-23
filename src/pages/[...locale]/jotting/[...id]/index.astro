@@ -6,6 +6,7 @@ import Base from "$layouts/Base.astro";
 import Position from "$components/Position.astro";
 import Icon from "$components/Icon.svelte";
 import Sensitive from "$components/Sensitive.svelte";
+import PasswordProtect from "$components/PasswordProtect.svelte";
 import i18nit from "$i18n";
 
 export async function getStaticPaths() {
@@ -58,9 +59,11 @@ const t = i18nit(locale);
 			<hr class="border-b border-weak" />
 		</header>
 
-		<Sensitive {locale} back="/jotting" sensitive={jotting.data.sensitive} client:load>
-			<section id="markdown-content" class="markdown"><Content /></section>
-		</Sensitive>
+		<PasswordProtect {locale} back="/jotting" password={jotting.data.password} client:load>
+			<Sensitive {locale} back="/jotting" sensitive={jotting.data.sensitive} client:load>
+				<section id="markdown-content" class="markdown"><Content /></section>
+			</Sensitive>
+		</PasswordProtect>
 
 		<Position {locale} />
 	</main>
