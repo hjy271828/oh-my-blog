@@ -1,6 +1,6 @@
 ---
 title: learn theano networks
-timestamp: 2026-1-23 17:28:30+08:00
+timestamp: 2026-1-23 17:28:30+00:00
 tags: [学点]
 description: 想学theano networks，中道崩徂
 ---

@@ -1,6 +1,6 @@
 ---
 title: lidar extrinsic calibration
-timestamp: 2026-1-23 11:06:30+08:00
+timestamp: 2026-1-23 11:06:30+00:00
 tags: [Robomaster]
 password: cwlm
 description: Detailed guide on lidar extrinsic calibration
