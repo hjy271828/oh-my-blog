@@ -48,6 +48,7 @@
 		"@iconify-json/simple-icons": "^1.2.66",
 		"@iconify-json/svg-spinners": "^1.2.4",
 		"@iconify/tailwind4": "^1.2.1",
+		"@resvg/resvg-js": "^2.6.2",
 		"@swup/astro": "^1.7.0",
 		"@tailwindcss/vite": "^4.1.18",
 		"astro": "^5.16.9",

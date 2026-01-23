@@ -1,5 +1,5 @@
 import satori from "satori";
-import sharp from "sharp";
+import { Resvg } from "@resvg/resvg-js";
 import icon from "$public/favicon.svg?raw";
 import { loadFont } from ".";
 
@@ -89,5 +89,11 @@ export default async ({ locale, title, description, author }: { locale: string; 
 		}
 	);
 
-	return sharp(Buffer.from(svg)).resize(1200).png().toBuffer();
+	const resvg = new Resvg(svg, {
+		fitTo: {
+			mode: "width",
+			value: 1200
+		}
+	});
+	return resvg.render().asPng();
 };
