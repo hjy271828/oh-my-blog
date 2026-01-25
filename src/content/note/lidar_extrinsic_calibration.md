@@ -27,20 +27,21 @@ description: Detailed guide on lidar extrinsic calibration
 
 ```sh
 cd ~/workspace/rm.cv.radar2026
-sudo chmod +x scripts/launch_lidar.sh
-scripts/launch_lidar.sh
+# sudo chmod +x scripts/launch_lidar.sh
+scripts/red_startup.sh
 ```
-or
+<!-- or
 ```sh
 source ~/ws_livox/install/setup.sh
 ros2 launch ~/ws_livox/src/livox_ros2_driver/launch/livox_lidar_launch.py
-```
+``` -->
 
 利用`rviz2`查看点云数据
 
 ```sh
 rviz2
 ```
+左下角 `add` -- `by topic` -- `pointcloud`之类
 
 > Note:
 >
@@ -50,7 +51,7 @@ rviz2
 > Could not transform from [livox_frame] to [map]
 > ```
 >
-> 尝试修改`Global Options`中的`Fixed Frame`为`livox_frame`
+> 尝试修改`Global Options`中的`Fixed Frame`为`livox_frame` (手动)
 
 启动雷达采集节点
 
@@ -106,3 +107,5 @@ ros2 run direct_visual_lidar_calibration calibrate middle_preprocess
 ```
 
 结果会输出到`calib.json`文件中。
+
+# 电池要用47S
