@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.36.0](https://github.com/hjy271828/oh-my-blog/compare/v0.35.4...v0.36.0) (2026-01-25)
+
+
+### Features
+
+* add password protection for note and jotting ([9d43861](https://github.com/hjy271828/oh-my-blog/commit/9d43861b3b2fbc67fad99a11918c45cb6334ee36))
+* create my blog ([1fa991d](https://github.com/hjy271828/oh-my-blog/commit/1fa991db483a2c6f69ed9ed8c97a47311ffc5a38))
+* polish my blog ([2fd2439](https://github.com/hjy271828/oh-my-blog/commit/2fd243907ab82b6848f5ee82630203f42555ad0d))
+* polish my blog ([3d2b89f](https://github.com/hjy271828/oh-my-blog/commit/3d2b89f356de536ffe29100de7958696da8c5303))
+* polish my blog ([11f559e](https://github.com/hjy271828/oh-my-blog/commit/11f559e649b2a5380f62b7ad55728b48f8fcdc75))
+* polish my blog ([a8973b0](https://github.com/hjy271828/oh-my-blog/commit/a8973b06404a3fe547ec98c66057100c50e6caec))
+* polish my blog ([1da57ee](https://github.com/hjy271828/oh-my-blog/commit/1da57eedc0f4c757432b688a0b9e25ab6c7ca30a))
+* polish my blog ([7de5128](https://github.com/hjy271828/oh-my-blog/commit/7de512841a69faa5b1c395293f9c5ff699479b44))
+
+
+### Bug Fixes
+
+* replace sharp with resvg-js for SVG rendering ([8d27897](https://github.com/hjy271828/oh-my-blog/commit/8d278970ae2d433acc127a1dcf2b9c44464c61fe))
+
 ## [0.35.4](https://github.com/tuyuritio/astro-theme-thought-lite/compare/v0.35.3...v0.35.4) (2026-01-17)
 
 
